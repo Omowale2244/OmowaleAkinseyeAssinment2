@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:
+}
+body{
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: ;
+    font-weight: 300;
+    padding: 0 24px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    max-width: 900px;
+    width: 100%;
+    border-radius: 12px;
+    background-color: white;
+}
+
+
+.form-image{
+    display: none;
+}
+@media (min-width:900px){
+    .form{
+        flex-direction: row;
+    }
+    .form-image{
+        display: block;
+        flex-basis: 45%;
+        background-image: ;
+
+    }
+
+}
